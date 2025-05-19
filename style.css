@@ -135,6 +135,12 @@
   margin-bottom: 20px;
  }
 
-button, .card, .crewimage, .flowchart {
-  transition: all 0.3s ease;
+.card, .cardcrew {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
+
+.card:hover, .cardcrew:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transform: translateY(-5px);
+}
+
