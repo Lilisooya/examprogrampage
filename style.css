@@ -143,4 +143,7 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   transform: translateY(-5px);
 }
-
+.card:hover, .cardcrew:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transform: translateY(-5px);
+}
