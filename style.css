@@ -1,0 +1,136 @@
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ body{
+    background-color:snow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .menubar{
+   display: inline-block;
+ }
+ .mainmenu{
+   display: inline-block;
+ }
+ .title{
+   display: inline-block;
+   padding-right: 15vw;
+   color: darkblue;
+ }
+ ul li{
+   text-decoration: none;
+   display: inline-block;
+   padding-right: 10px;
+   color: darkblue;
+ }
+ a{
+   text-decoration: none;
+ }
+ .image{
+    width: 50px;
+    height: auto;
+     }
+ header{
+   background-color: rgb(156, 156, 217);
+ }
+ /*New content*/
+ .banner{
+   display: inline-block;
+   padding-left: 5vw;
+ }
+ /*New content*/
+ .bannertext{
+   display: inline-block;
+   width: 50%;
+   vertical-align: top;
+ }
+ /*New content*/
+ .bannerimg{
+   width: 70%;
+   height: auto;
+   display: inline-block;
+ }
+ .greatcontainer{
+   width:95vw;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 1%;
+ }
+ .card{
+   width: 20vw;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   padding: 1%;
+   border: 1px purple solid;
+ }
+ .flowchart{
+   width: 100%;
+   display: block;
+ }
+ .flowchartext{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+   font-size: 14px;
+ }
+ .flowchartitle{
+   font-weight: bold;
+ }
+  
+ .mycrew {
+    margin: 1%;
+    text-align: center;
+
+ }
+ .crewtitle{
+    text-align: start;
+    color: brown;
+
+ }
+ .crewimage{
+    width: 100%;
+    height: 50%;
+ }
+ .crewparagraph{
+    font-size: xx-small;
+    font-family: italic;
+    
+ }
+
+ .subscribeform{
+  display: flex;
+  justify-content: space-around;
+ }
+ .subscribe form input{
+  width: 30%;
+  height:1% ;
+  padding:5px 10px 5px 10px ;
+ }
+ .subscribebutton{
+  background-color: blueviolet;
+  color: aliceblue;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+ }
+ .mailconfimation{
+  text-align: center;
+ }
+ .subscribe label{
+  display: block;
+  margin-bottom: 20px;
+ }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href = "./style.css"/>
+  <link rel="icon" type="image/svg" href="./bx-happy-heart-eyes.svg"/>
+  <script src="scrips.js"></script>
+  <title>Document</title>
+
+</head>
+
+<body>
+  
+ <header>
+  <div class="menubar">
+    <h1 class="title">My Programing Challenge Page</h1>
+    <div class="mainmenu">
+      <ul>
+        <li>Home</li>
+        <li>Challenges</li>
+        <a href="./Contribute.html">
+          <li>Contribute to the crew</li>
+        </a>
+        <li><button onclick="location.href='.login.html'">Sign In</button></li>
+        <a href="./Login.html">
+          <li><img class="image" alt="login" src="./Media/295128.png"></li>
+        </a>
+        
+
+      </ul>
+
+    </div>
+    
+  </div>
+ </header>
+  <main>
+    <div class="banner">
+      <div class="bannertext">
+       <h2>Welcome to your Programing fundamentals Page</h2>
+       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt soluta quidem accusamus accusantium
+       consectetur quisquam repellendus quis nobis. Assumenda autem corporis nobis error ratione esse commodi magni nisi
+       veritatis quae?</p>
+     <div>   
+        <ul>
+         <li><button>Visit the database</button></li>
+         <li><button>Meet the crew</button></li>
+        </ul>
+        </div>
+        </div>
+          <div class=" banner">
+           <img class="bannerimg" alt="image2" src="Media/images (2).jpeg"/>
+          </div>
+  </div>
+  <div>
+    <h2>Our programing batabase</h2>
+    <div class="greatcontainer">
+      <div class="card">
+      <img class="flowchart"alt="flowchart" src="Media/Captura de pantalla 2024-12-06 141853.png"/>
+      <h5 class="flowchartitle">Employees salary problem</h5>
+      <p class="flowchartext">An employee needs to calculate his/her weekly salary. You can obtain this salary calculating:
+        <br>
+        If works 40 hours or less, will earn $16 per hour.<br>
+        If works more that $40 per hour for first 40 hours and $20 for each extra hour
+      </p>
+      <button onclick=" location.href='Media/Captura de pantalla 2024-12-06 141853.png'"> Watch the flowchart</button>
+     </div>
+        <div class="card">
+      <img class="flowchart"alt="flowchart" src="Media/Captura de pantalla 2024-12-06 145428.png"/>
+      <h5 class="flowchartitle">Quiz Multiplication with additions flowchart</h5>
+      <p class="flowchartext">Do an algorithm that can calculate the multiplication of two numbers without using the multiplication operator (using additions).     </p>
+      <button onclick=" location.href='Media/Captura de pantalla 2024-12-06 145428.png'"> Watch the flowchart</button>
+     </div>
+     
+  </div>
+  
+  
+<script>
+  let random=Math.floor(Math.random()*100);
+</script>
+<div class ="subscribe">
+  <h2 class ="crewtitle">An additional challenge for you!</h2>
+  <label for="number">Type a number between 0 and 100.Try to guess the number!</label>
+  <form action=" javascript:guessNumber(number.value, random)" method="post">
+    <input type="number" id="number" name="number"/>
+    <input class="subscribebutton" type="submit" name="guess" value="Guess now!"/>
+    </form>
+    <p id="answer"></p>
+    </div>
+  <div class="mycrew" id="crew">
+    <h2 class="crewtitle"> Meet our crew</h2>
+    <div class="cardcrew">
+      <img class = "crewimage" alt = "My photo" src="Media/Captura de pantalla 2023-08-01 155457.png"/>
+      <h5> Krish Medina</h5>
+      <h6> Student</h6>
+      <p class="crewparagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolor dignissimos labore id beatae. Voluptatibus ipsam distinctio totam non error repudiandae illum? Sunt suscipit assumenda id, obcaecati repudiandae repellat eaque.</p>
+    </div>
+  </div>
+  <div class="mycrew" id=" Contribute">
+    <h2 class="crewtitle">Contribute to the proyect Adittional challenge for you</h2>
+    <div class="cardcrew">
+      <button class="contributebutton">More information here     </button>
+    </div>
+  </div>
+  <div class= "subscribe">
+    <h2> Do you want more information about the proyect</h2>
+    <h4> Type your mail to receive more notifications weekly </h4>
+    <form  action="javascript:sendMail(name.value)"method= "post">
+      <input type = "email" name = "email" placeholder=" example@mail.com">
+      <input class="subscribebutton" type="submit" name="send_mail" value = "send">
+    
+    </form>
+    <div><p id= "mailsucess"></p> </div>
+  </div>
+  <main>
+    <div>
+
+    </div>
+    <footer>
+
+    </footer>
+  </main>
+</body>
+
+</html>
